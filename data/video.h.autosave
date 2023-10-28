@@ -1,0 +1,22 @@
+#ifndef VIDEO_H
+#define VIDEO_H
+
+#include <QString>
+
+class video
+{
+public:
+    video(QString path,QString coverpath,QString camera,QString creat_time,int fream_count);
+    QString getPath() const;
+    QString getCoverpath() const;
+    QString getCamera() const;
+    QString getCreat_time() const;
+    void setFream_count(int value);  
+    int getFream_count() const;
+    
+private:
+    QString path,coverpath,camera,creat_time;
+    int fream_count;
+};
+
+#endif // VIDEO_H

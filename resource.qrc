@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/star_background.jpg</file>
+        <file>img/eye.png</file>
+        <file>img/fly.png</file>
+        <file>img/logo.png</file>
+        <file>img/one.png</file>
+        <file>img/four.png</file>
+        <file>img/ball.png</file>
+        <file>img/cheak.png</file>
+        <file>img/uncheak.png</file>
+        <file>img/background.jpg</file>
+        <file>img/down.png</file>
+        <file>img/up.png</file>
+    </qresource>
+</RCC>
